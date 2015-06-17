@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MoviesViewController : UIViewController
-
+- (void) refreshView:(UIRefreshControl *)refresh;
+@property (weak, nonatomic) IBOutlet UIVisualEffectView *networkErrorMessageView;
 @end
