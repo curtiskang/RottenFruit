@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51C536EB61CC711C734A2D60 /* libPods-RottenFruit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F32FF4ACD2BD44D25C4FD7A5 /* libPods-RottenFruit.a */; };
 		B141E4A81B2A9FD00096BA11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B141E4A71B2A9FD00096BA11 /* main.m */; };
 		B141E4AB1B2A9FD00096BA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B141E4AA1B2A9FD00096BA11 /* AppDelegate.m */; };
 		B141E4AE1B2A9FD00096BA11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B141E4AD1B2A9FD00096BA11 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		B141E4B31B2A9FD00096BA11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B141E4B21B2A9FD00096BA11 /* Images.xcassets */; };
 		B141E4B61B2A9FD00096BA11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B141E4B41B2A9FD00096BA11 /* LaunchScreen.xib */; };
 		B141E4C21B2A9FD00096BA11 /* RottenFruitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B141E4C11B2A9FD00096BA11 /* RottenFruitTests.m */; };
+		B1BE00441B30CCCE00A40DCD /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE00431B30CCCE00A40DCD /* MoviesViewController.m */; };
+		B1BE00471B31410700A40DCD /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE00461B31410700A40DCD /* MovieCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DF31E6674C776CC95F32EC2 /* Pods-RottenFruit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenFruit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RottenFruit/Pods-RottenFruit.debug.xcconfig"; sourceTree = "<group>"; };
 		B141E4A21B2A9FD00096BA11 /* RottenFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B141E4A61B2A9FD00096BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B141E4A71B2A9FD00096BA11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		B141E4BB1B2A9FD00096BA11 /* RottenFruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenFruitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B141E4C01B2A9FD00096BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B141E4C11B2A9FD00096BA11 /* RottenFruitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenFruitTests.m; sourceTree = "<group>"; };
+		B1BE00421B30CCCE00A40DCD /* MoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		B1BE00431B30CCCE00A40DCD /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		B1BE00451B31410700A40DCD /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		B1BE00461B31410700A40DCD /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		E17F2443B0421D9BF6E9EEF0 /* Pods-RottenFruit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenFruit.release.xcconfig"; path = "Pods/Target Support Files/Pods-RottenFruit/Pods-RottenFruit.release.xcconfig"; sourceTree = "<group>"; };
+		F32FF4ACD2BD44D25C4FD7A5 /* libPods-RottenFruit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RottenFruit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C536EB61CC711C734A2D60 /* libPods-RottenFruit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 				B141E4A41B2A9FD00096BA11 /* RottenFruit */,
 				B141E4BE1B2A9FD00096BA11 /* RottenFruitTests */,
 				B141E4A31B2A9FD00096BA11 /* Products */,
+				DAA8591A9A7B263485D2145B /* Pods */,
+				D64ADA4FBE763F55D35E1E54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +99,10 @@
 				B141E4AC1B2A9FD00096BA11 /* ViewController.h */,
 				B141E4AD1B2A9FD00096BA11 /* ViewController.m */,
 				B141E4AF1B2A9FD00096BA11 /* Main.storyboard */,
+				B1BE00451B31410700A40DCD /* MovieCell.h */,
+				B1BE00461B31410700A40DCD /* MovieCell.m */,
+				B1BE00421B30CCCE00A40DCD /* MoviesViewController.h */,
+				B1BE00431B30CCCE00A40DCD /* MoviesViewController.m */,
 				B141E4B21B2A9FD00096BA11 /* Images.xcassets */,
 				B141E4B41B2A9FD00096BA11 /* LaunchScreen.xib */,
 				B141E4A51B2A9FD00096BA11 /* Supporting Files */,
@@ -119,6 +136,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D64ADA4FBE763F55D35E1E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32FF4ACD2BD44D25C4FD7A5 /* libPods-RottenFruit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA8591A9A7B263485D2145B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF31E6674C776CC95F32EC2 /* Pods-RottenFruit.debug.xcconfig */,
+				E17F2443B0421D9BF6E9EEF0 /* Pods-RottenFruit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B141E4C51B2A9FD00096BA11 /* Build configuration list for PBXNativeTarget "RottenFruit" */;
 			buildPhases = (
+				902C4C72265F43F0BC241F59 /* Check Pods Manifest.lock */,
 				B141E49E1B2A9FD00096BA11 /* Sources */,
 				B141E49F1B2A9FD00096BA11 /* Frameworks */,
 				B141E4A01B2A9FD00096BA11 /* Resources */,
+				655DC2FA9EDE9713BA04103B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +250,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		655DC2FA9EDE9713BA04103B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RottenFruit/Pods-RottenFruit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902C4C72265F43F0BC241F59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B141E49E1B2A9FD00096BA11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B141E4AE1B2A9FD00096BA11 /* ViewController.m in Sources */,
+				B1BE00471B31410700A40DCD /* MovieCell.m in Sources */,
 				B141E4AB1B2A9FD00096BA11 /* AppDelegate.m in Sources */,
 				B141E4A81B2A9FD00096BA11 /* main.m in Sources */,
+				B1BE00441B30CCCE00A40DCD /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +416,7 @@
 		};
 		B141E4C61B2A9FD00096BA11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF31E6674C776CC95F32EC2 /* Pods-RottenFruit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenFruit/Info.plist;
@@ -355,6 +427,7 @@
 		};
 		B141E4C71B2A9FD00096BA11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17F2443B0421D9BF6E9EEF0 /* Pods-RottenFruit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenFruit/Info.plist;
@@ -416,6 +489,7 @@
 				B141E4C71B2A9FD00096BA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B141E4C81B2A9FD00096BA11 /* Build configuration list for PBXNativeTarget "RottenFruitTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +498,7 @@
 				B141E4CA1B2A9FD00096BA11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
