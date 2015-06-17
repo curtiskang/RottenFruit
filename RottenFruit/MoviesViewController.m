@@ -56,7 +56,7 @@
         [self.tableView reloadData];
             };
         }];
-        
+        [NSThread sleepForTimeInterval:3];
         // 4) Present picker in main thread
         dispatch_async(dispatch_get_main_queue(), ^{
             //[self presentViewController:_picker animated:YES completion:nil];
@@ -104,7 +104,7 @@
     refresh.attributedTitle = [[NSAttributedString alloc] initWithString:@"reloading"];
 
     
-    NSString *apiUrlString = @"http://1api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=7ue5rxaj9xn4mhbmsuexug54&limit=1&country=us";
+    NSString *apiUrlString = @"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=7ue5rxaj9xn4mhbmsuexug54&limit=20&country=us";
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:apiUrlString]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError != NULL) {
